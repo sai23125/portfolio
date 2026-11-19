@@ -6,7 +6,12 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Hanken+Grotesk:wght@300;400;700&display=swap">
 <style>
 /* Layout: black canvas, blue gradient bands, frosted glass panels with soft corners, 3D blue ribbons at the edges, mono body type under a light grotesk display. Dark by design. */
-:root {
+.project-card a,
+.project-card a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+  :root {
   --black: #000000;
   --navy: #031233;
   --blue: #1a5fd6;
@@ -27,6 +32,7 @@
   --gutter: 16px;
   color-scheme: dark;
 }
+  
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; background: var(--black); }
 body {
